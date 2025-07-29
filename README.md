@@ -5,24 +5,25 @@ The Text Remark Categorization project is an intelligent NLP pipeline designed t
 This system transforms unstructured text feedback into categorized, interpretable data—helping utility companies improve service response, optimize operations, and enhance customer satisfaction.
 
 🔄 Project Pipeline
+
 📊 Flow Overview:
-Labeled Data Preparation
+1.Labeled Data Preparation
 
-Text Cleaning & Tokenization
+2.Text Cleaning & Tokenization
 
-Time-Aware Feature Extraction
+3.Time-Aware Feature Extraction
 
-Sentence Embedding via SentenceTransformer
+4.Sentence Embedding via SentenceTransformer
 
-Supervised Classification (Logistic Regression)
+5.Supervised Classification (Logistic Regression)
 
-Unsupervised Clustering (KMeans + TF-IDF + Gemini AI)
+6.Unsupervised Clustering (KMeans + TF-IDF + Gemini AI)
 
-Language Detection & Segregation
+7.Language Detection & Segregation
 
-Semantic Column Merging
+8.Semantic Column Merging
 
-🧠 Functionalities
+🧠 Functionalities:
 ✅ Automated Categorization using a Logistic Regression classifier.
 
 ⏱️ Time-Aware Parsing for urgency detection in customer remarks.
@@ -44,15 +45,15 @@ Language: Python
 
 NLP & ML:
 
-sentence-transformers (MiniLM-L6-v2)
+1.sentence-transformers (MiniLM-L6-v2)
 
-scikit-learn (LogisticRegression, TF-IDF, train/test split)
+2.scikit-learn (LogisticRegression, TF-IDF, train/test split)
 
-cuml, cudf for GPU-accelerated clustering
+3.cuml, cudf for GPU-accelerated clustering
 
-nltk, langdetect, re for preprocessing
+4.nltk, langdetect, re for preprocessing
 
-google.generativeai (Gemini API)
+5.google.generativeai (Gemini API)
 
 Utilities: pandas, numpy, joblib, torch, os, time
 🚀 Real-World Applications
@@ -69,13 +70,6 @@ Utilities: pandas, numpy, joblib, torch, os, time
 📊 KPI Reporting & Compliance
 
 📍 Region-Specific Outage Tracking
-
-🧪 Model Performance Metrics
-Accuracy Score
-
-Precision / Recall / F1-score (Per Category)
-
-Cluster Cohesion (Unsupervised Groupings)
 
 💡 Future Enhancements
 Add support for non-English remark classification.
